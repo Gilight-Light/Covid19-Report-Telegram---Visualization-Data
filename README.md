@@ -30,6 +30,8 @@ This project uses the following technologies and tools:
 - **Version Control:** Git, GitHub
 
 ## 📂 Project Structure
+
+```
 Telegram Chatbot Report - Data Pipeline/
 ├── dags/
 │   ├── sql/
@@ -49,7 +51,7 @@ Telegram Chatbot Report - Data Pipeline/
 └── query.py
 └── streaming.py
 └── streamlit.py
-
+```
 
 ## 📋 Prerequisites
 - Git
@@ -102,6 +104,12 @@ Demo: @UITCovid19_bot
 2. **Streamlit Dashboard**:
    This will launch an interactive dashboard on [http://localhost:8501](http://localhost:8501).
 
+3. **Spark UI**:
+      
+      To monitor Spark jobs, navigate to the Spark UI:
+      - Open your browser and go to [http://localhost:8081](http://localhost:8081).
+      
+   
 ### 🧑‍💻 Contributing
 We welcome contributions! If you'd like to contribute, please follow these steps:
 1. Fork the repository.
