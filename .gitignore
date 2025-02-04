@@ -10,5 +10,5 @@ webserver_config.py
 airflow.cfg
 airflow.db
 gcp
-.json
+*.json
 .csv
